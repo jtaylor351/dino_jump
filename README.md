@@ -5,9 +5,7 @@ Installation:
 -------
 Only runs on Ubuntu. Run the following to install the required software
 
-sudo apt-get install gcc-arm-none-eabi
-sudo apt-get install libnewlib-arm-none-eabi
-sudo apt-get install cs2110-vbam-sdl
+sudo apt-get install gcc-arm-none-eabi && sudo apt-get install libnewlib-arm-none-eabi && sudo apt-get install cs2110-vbam-sdl
 
 
 Starting the application:
