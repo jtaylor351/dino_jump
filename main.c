@@ -89,17 +89,6 @@ int main()
 		0
 	};
 
-	/*
-		May need later don't need atm
-	// Fill screen with bgcolor using DBA
-	REG_DMA3SAD = (u32)&bgcolor; // This is always an address!
-	REG_DMA3DAD = (u32)videoBuffer; // This is always an address!
-	REG_DMA3CNT = (240*160) | DMA_ON | DMA_DESTINATION_INCREMENT | DMA_SOURCE_FIXED;
-
-	*/
-
-
-
 	while(1) {
 
 		waitForVBlank();
@@ -156,7 +145,7 @@ int main()
 		/*
 		********************************************************************
 			Logic for if the up button was pressde to see if a jump should
-			be made. Only if not currently jumpiung (defined by jumpCounter
+			be made. Only if not currently jumping (defined by jumpCounter
 			equalling 0)
 		********************************************************************
 		*/
