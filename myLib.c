@@ -112,8 +112,3 @@ void eraseSprite(SPRITE *sprite, u32 *bg)
 		REG_DMA3CNT = (sprite->width) | DMA_ON | DMA_DESTINATION_INCREMENT | DMA_SOURCE_FIXED;
 	}
 }
-// 	if (state->cactusOnScreen)
-// 	{
-// 		drawSprite(40, 40)
-// 	}
-// }
